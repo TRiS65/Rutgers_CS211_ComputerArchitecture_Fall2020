@@ -86,6 +86,7 @@ int main(int argc, char* argv[argc+1]){
   fclose(f);
   
   int result = det(mat,n);
+	
   printf("%d\n",result);
 
   freeMatrix(mat,n);
